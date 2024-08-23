@@ -10,13 +10,43 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./about.js":
+/*!******************!*\
+  !*** ./about.js ***!
+  \******************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   getAbout: () => (/* binding */ getAbout)\n/* harmony export */ });\n/* harmony import */ var _script__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./script */ \"./script.js\");\n\r\n\r\nfunction getAbout() {\r\n    const content = document.querySelector(\"#content\");\r\n\r\n    content.innerHTML = ''\r\n    ;(0,_script__WEBPACK_IMPORTED_MODULE_0__.getHeader)(content)\r\n    const aboutBack = document.createElement(\"div\");\r\n    aboutBack.className = \"about-background\";\r\n    content.append(aboutBack)\r\n}\r\n\n\n//# sourceURL=webpack://restaurant/./about.js?");
+
+/***/ }),
+
+/***/ "./main.js":
+/*!*****************!*\
+  !*** ./main.js ***!
+  \*****************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   getMain: () => (/* binding */ getMain)\n/* harmony export */ });\n/* harmony import */ var _imgs_background_spiral_c5d64e2d702a992fed648621f874d2b8_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./imgs/background-spiral.c5d64e2d702a992fed648621f874d2b8.png */ \"./imgs/background-spiral.c5d64e2d702a992fed648621f874d2b8.png\");\n/* harmony import */ var _imgs_header_total_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./imgs/header-total.png */ \"./imgs/header-total.png\");\n/* harmony import */ var _imgs_menu_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./imgs/menu.png */ \"./imgs/menu.png\");\n/* harmony import */ var _imgs_about_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./imgs/about.png */ \"./imgs/about.png\");\n/* harmony import */ var _imgs_Joker_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./imgs/Joker.png */ \"./imgs/Joker.png\");\n/* harmony import */ var _script__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./script */ \"./script.js\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nfunction getMain() {\r\n  const content = document.querySelector(\"#content\");\r\n\r\n  content.innerHTML = \"\";\r\n  const background = document.createElement(\"div\");\r\n  background.className = \"background\";\r\n  content.append(background);\r\n  (0,_script__WEBPACK_IMPORTED_MODULE_5__.getHeader)(content);\r\n  //header\r\n  //paralax\r\n  function paralxBox() {\r\n    const background = document.createElement(\"div\");\r\n    background.className = \"background\";\r\n    content.append(background);\r\n\r\n    const paralax = document.createElement(\"div\");\r\n    paralax.className = \"paralax-box\";\r\n    content.append(paralax);\r\n    // paralax Elements\r\n    const spiral = document.createElement(\"img\");\r\n    spiral.className = \"spiral\";\r\n    spiral.src = _imgs_background_spiral_c5d64e2d702a992fed648621f874d2b8_png__WEBPACK_IMPORTED_MODULE_0__;\r\n    paralax.append(spiral);\r\n\r\n    const joker = document.createElement(\"img\");\r\n    joker.className = \"joker\";\r\n    joker.src = _imgs_Joker_png__WEBPACK_IMPORTED_MODULE_4__;\r\n    paralax.append(joker);\r\n  }\r\n  return paralxBox();\r\n}\r\n\n\n//# sourceURL=webpack://restaurant/./main.js?");
+
+/***/ }),
+
+/***/ "./menu.js":
+/*!*****************!*\
+  !*** ./menu.js ***!
+  \*****************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   getMenu: () => (/* binding */ getMenu)\n/* harmony export */ });\n/* harmony import */ var _imgsMenu_snorlax_food_e41957ea4dfa06a60365129480382d06_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./imgsMenu/snorlax-food.e41957ea4dfa06a60365129480382d06.png */ \"./imgsMenu/snorlax-food.e41957ea4dfa06a60365129480382d06.png\");\n/* harmony import */ var _imgsMenu_eevee_food_9af9e2902101198fcb022fd8e4e6bdc3_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./imgsMenu/eevee-food.9af9e2902101198fcb022fd8e4e6bdc3.png */ \"./imgsMenu/eevee-food.9af9e2902101198fcb022fd8e4e6bdc3.png\");\n/* harmony import */ var _imgsMenu_jigglypuff_food_3c71fb31ea4331868b25d30b61a1cb75_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./imgsMenu/jigglypuff-food.3c71fb31ea4331868b25d30b61a1cb75.png */ \"./imgsMenu/jigglypuff-food.3c71fb31ea4331868b25d30b61a1cb75.png\");\n/* harmony import */ var _imgsMenu_pickachu_drink_ca1ac5acb51dfbc95eba7d9cb0bef704_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./imgsMenu/pickachu-drink.ca1ac5acb51dfbc95eba7d9cb0bef704.png */ \"./imgsMenu/pickachu-drink.ca1ac5acb51dfbc95eba7d9cb0bef704.png\");\n/* harmony import */ var _imgsMenu_eevee_drink_f8b591c2bb596b365db38035b955558b_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./imgsMenu/eevee-drink.f8b591c2bb596b365db38035b955558b.png */ \"./imgsMenu/eevee-drink.f8b591c2bb596b365db38035b955558b.png\");\n/* harmony import */ var _imgsMenu_gengar_drink_1e63d44d6cf39607a4527b2de6413051_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./imgsMenu/gengar-drink.1e63d44d6cf39607a4527b2de6413051.png */ \"./imgsMenu/gengar-drink.1e63d44d6cf39607a4527b2de6413051.png\");\n/* harmony import */ var _script__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./script */ \"./script.js\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nfunction getMenu() {\r\n    const content = document.querySelector(\"#content\");\r\n\r\n    content.innerHTML = ''\r\n    ;(0,_script__WEBPACK_IMPORTED_MODULE_6__.getHeader)(content)\r\n    const menuBack = document.createElement(\"div\");\r\n    menuBack.className = \"menu-back\";\r\n    content.append(menuBack);\r\n\r\n    const menuContainer = document.createElement(\"div\");\r\n    menuContainer.className = \"menu-container\";\r\n    content.append(menuContainer);\r\n\r\n    const imgOne = document.createElement(\"img\");\r\n    imgOne.className=\"dish-one\";\r\n    imgOne.src = _imgsMenu_snorlax_food_e41957ea4dfa06a60365129480382d06_png__WEBPACK_IMPORTED_MODULE_0__;\r\n    menuContainer.append(imgOne);\r\n\r\n    const imgTwo = document.createElement(\"img\");\r\n    imgTwo.className=\"dish-two\";\r\n    imgTwo.src = _imgsMenu_eevee_food_9af9e2902101198fcb022fd8e4e6bdc3_png__WEBPACK_IMPORTED_MODULE_1__;\r\n    menuContainer.append(imgTwo);\r\n\r\n    const imgThree = document.createElement(\"img\");\r\n    imgThree.className=\"dish-three\";\r\n    imgThree.src = _imgsMenu_jigglypuff_food_3c71fb31ea4331868b25d30b61a1cb75_png__WEBPACK_IMPORTED_MODULE_2__;\r\n    menuContainer.append(imgThree);\r\n\r\n    const imgFour = document.createElement(\"img\");\r\n    imgFour.className=\"dish-four\";\r\n    imgFour.src = _imgsMenu_pickachu_drink_ca1ac5acb51dfbc95eba7d9cb0bef704_png__WEBPACK_IMPORTED_MODULE_3__;\r\n    menuContainer.append(imgFour);\r\n\r\n    const imgFive = document.createElement(\"img\");\r\n    imgFive.className=\"dish-five\";\r\n    imgFive.src = _imgsMenu_eevee_drink_f8b591c2bb596b365db38035b955558b_png__WEBPACK_IMPORTED_MODULE_4__;\r\n    menuContainer.append(imgFive);\r\n\r\n    const imgSix = document.createElement(\"img\");\r\n    imgSix.className=\"dish-six\";\r\n    imgSix.src = _imgsMenu_gengar_drink_1e63d44d6cf39607a4527b2de6413051_png__WEBPACK_IMPORTED_MODULE_5__;\r\n    menuContainer.append(imgSix);\r\n\r\n    \r\n}\r\n\n\n//# sourceURL=webpack://restaurant/./menu.js?");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./main.css":
 /*!********************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./main.css ***!
   \********************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./imgs/paper_tear_only_bg.f44efaa060da5d0a8ee4c4561195a14a.png */ \"./imgs/paper_tear_only_bg.f44efaa060da5d0a8ee4c4561195a14a.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./imgsMenu/menu-page-background.1a9fae3c635aa820f8d110dcf05ba500.png */ \"./imgsMenu/menu-page-background.1a9fae3c635aa820f8d110dcf05ba500.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ./imgs/about-bg.9ff76dd3ad24ef92da4b4370a48b5a02.png */ \"./imgs/about-bg.9ff76dd3ad24ef92da4b4370a48b5a02.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `* {\r\n    padding: 0;\r\n    margin: 0;\r\n}\r\n\r\n#content {\r\n    width: 100%;\r\n    height: 100vh;\r\n    overflow: hidden;\r\n}\r\n\r\n.background {\r\n    width: 100%;\r\n    height: 100%;\r\n    position: absolute;\r\n    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_0___});\r\n}\r\n\r\n.header {\r\n    display: flex;\r\n    position: fixed;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 19.5%;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    z-index: 100;\r\n}\r\n\r\n.mainPage {\r\n    margin-top: 2.5%;\r\n    margin-left: 2.0%;\r\n    max-width: 20.0%;\r\n    height: auto;\r\n    cursor: pointer;\r\n}\r\n\r\n.menu {\r\n    position: relative;\r\n    min-width: 12.5%;\r\n    height: auto;\r\n    right: 6.30%;\r\n    bottom: 5.0%;\r\n    cursor: pointer\r\n}\r\n\r\n.about {\r\n    position: relative;\r\n    min-width: 12.5%;\r\n    height: auto;\r\n    right: 8.00%;\r\n    bottom: 20.00%;\r\n    cursor: pointer\r\n}\r\n\r\n.joker {\r\n    position: fixed;\r\n    z-index: -1;\r\n    min-width: 80%;\r\n    top: 17%;\r\n    left: 8%;\r\n}\r\n\r\n.spiral {\r\n    position: fixed;\r\n    z-index: -2;\r\n}\r\n\r\n.menu-back {\r\n    width: 100%;\r\n    height: 100%;\r\n    position: absolute;\r\n    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_1___});\r\n}\r\n\r\n.menu-container {\r\n    display: flex;\r\n    width: 100%;\r\n    height: 100%;\r\n    width: 100%;\r\n}\r\n\r\n.dish-one {\r\n    position: fixed;\r\n    top: 17vw;\r\n    left: 5.5vw;\r\n    width: 30vw;\r\n    cursor: pointer;\r\n}\r\n\r\n.dish-two {\r\n    position: fixed;\r\n    top: 26vw;\r\n    left: 29vw;\r\n    width: 27.8vw;\r\n    cursor: pointer;\r\n}\r\n\r\n.dish-three {\r\n    position: fixed;\r\n    top: 36.45vw;\r\n    left: 6.65vw;\r\n    width: 29.9vw;\r\n    cursor: pointer;\r\n}\r\n\r\n.dish-four {\r\n    position: fixed;\r\n    left: 65.4vw;\r\n    top: 15vw;\r\n    width: 30.8vw;\r\n    cursor: pointer;\r\n}\r\n\r\n.dish-five {\r\n    position: fixed;\r\n    top: 25.4vw;\r\n    left: 62vw;\r\n    width: 26.7vw;\r\n    cursor: pointer;\r\n}\r\n\r\n.dish-six {\r\n    position: fixed;\r\n    top: 33vw;\r\n    left: 65vw;\r\n    width: 27.6vw;\r\n    cursor: pointer;\r\n}\r\n\r\n.about-background {\r\n    display: flex;\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 0;\r\n    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_2___});\r\n    background-size: cover;\r\n    padding-top: 143.385%;\r\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant/./main.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./imgs/paper_tear_only_bg.f44efaa060da5d0a8ee4c4561195a14a.png */ \"./imgs/paper_tear_only_bg.f44efaa060da5d0a8ee4c4561195a14a.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./imgsMenu/menu-page-background.1a9fae3c635aa820f8d110dcf05ba500.png */ \"./imgsMenu/menu-page-background.1a9fae3c635aa820f8d110dcf05ba500.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ./imgs/about-bg.9ff76dd3ad24ef92da4b4370a48b5a02.png */ \"./imgs/about-bg.9ff76dd3ad24ef92da4b4370a48b5a02.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `* {\r\n    padding: 0;\r\n    margin: 0;\r\n}\r\n\r\n#content {\r\n    width: 100%;\r\n    height: 100vh;\r\n    overflow: hidden;\r\n}\r\n\r\n.background {\r\n    width: 100%;\r\n    height: 100%;\r\n    position: absolute;\r\n    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_0___});\r\n}\r\n\r\n.header {\r\n    display: flex;\r\n    position: fixed;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 19.5%;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    z-index: 100;\r\n}\r\n\r\n.main {\r\n    position: relative;\r\n    margin-top: 9.5%;\r\n    margin-left: 8.0%;\r\n    width: 80.0%;\r\n    height: auto;\r\n    cursor: pointer;\r\n}\r\n\r\n.menu {\r\n    position: relative;\r\n    min-width: 12.5%;\r\n    height: auto;\r\n    right: 53.30%;\r\n    bottom: 5.0%;\r\n    cursor: pointer\r\n}\r\n\r\n.about {\r\n    cursor: pointer\r\n}\r\n\r\n.img-container:has(.about){\r\n    position: relative;\r\n    min-width: 12.5%;\r\n    height: auto;\r\n    right: 8.00%;\r\n    bottom: 15.00%;\r\n}\r\n\r\n.joker {\r\n    position: fixed;\r\n    z-index: -1;\r\n    min-width: 80%;\r\n    top: 17%;\r\n    left: 8%;\r\n}\r\n\r\n.spiral {\r\n    position: fixed;\r\n    z-index: -2;\r\n}\r\n\r\n.menu-back {\r\n    width: 100%;\r\n    height: 100%;\r\n    position: absolute;\r\n    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_1___});\r\n}\r\n\r\n.menu-container {\r\n    display: flex;\r\n    width: 100%;\r\n    height: 100%;\r\n    width: 100%;\r\n}\r\n\r\n.dish-one {\r\n    position: fixed;\r\n    top: 17vw;\r\n    left: 5.5vw;\r\n    width: 30vw;\r\n    cursor: pointer;\r\n}\r\n\r\n.dish-two {\r\n    position: fixed;\r\n    top: 26vw;\r\n    left: 29vw;\r\n    width: 27.8vw;\r\n    cursor: pointer;\r\n}\r\n\r\n.dish-three {\r\n    position: fixed;\r\n    top: 36.45vw;\r\n    left: 6.65vw;\r\n    width: 29.9vw;\r\n    cursor: pointer;\r\n}\r\n\r\n.dish-four {\r\n    position: fixed;\r\n    left: 65.4vw;\r\n    top: 15vw;\r\n    width: 30.8vw;\r\n    cursor: pointer;\r\n}\r\n\r\n.dish-five {\r\n    position: fixed;\r\n    top: 25.4vw;\r\n    left: 62vw;\r\n    width: 26.7vw;\r\n    cursor: pointer;\r\n}\r\n\r\n.dish-six {\r\n    position: fixed;\r\n    top: 33vw;\r\n    left: 65vw;\r\n    width: 27.6vw;\r\n    cursor: pointer;\r\n}\r\n\r\n.about-background {\r\n    display: flex;\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 0;\r\n    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_2___});\r\n    background-size: cover;\r\n    padding-top: 143.385%;\r\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant/./main.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -126,7 +156,47 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \*******************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   getAbout: () => (/* binding */ getAbout)\n/* harmony export */ });\n/* harmony import */ var _main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./main.css */ \"./main.css\");\n\r\n// import spiralImg from \"./imgs/background-spiral.c5d64e2d702a992fed648621f874d2b8.png\";\r\n// import mainPageImg from \"./imgs/header-total.png\";\r\n// import menuImg from \"./imgs/menu.png\";\r\n// import aboutImg from \"./imgs/about.png\";\r\n// import jokerImg from \"./imgs/Joker.png\";\r\n// import { getMenu } from \"./menu\";\r\n// import { getMain } from \"./main\";\r\n// import { getAbout } from \"./about\";\r\n\r\nconst content = document.querySelector(\"#content\");\r\n\r\n// const background = document.createElement(\"div\");\r\n// background.className = \"background\";\r\n// content.append(background);\r\n\r\n// //header\r\n// function getHeader() {\r\n//   const header = document.createElement(\"header\");\r\n//   header.className = \"header\";\r\n//   content.append(header);\r\n//   //header Elements\r\n//   const mainPage = document.createElement(\"img\");\r\n//   mainPage.className = \"mainPage\";\r\n//   mainPage.src = mainPageImg;\r\n//   header.append(mainPage);\r\n\r\n//   const menu = document.createElement(\"img\");\r\n//   menu.className = \"menu\";\r\n//   menu.src = menuImg;\r\n//   header.append(menu);\r\n\r\n//   const about = document.createElement(\"img\");\r\n//   about.className = \"about\";\r\n//   about.src = aboutImg;\r\n//   header.append(about);\r\n// }\r\n\r\n// getHeader()\r\n\r\n// //paralax\r\n// function paralxBox() {\r\n//   const background = document.createElement(\"div\");\r\n//   background.className = \"background\";\r\n//   content.append(background);\r\n\r\n//   const paralax = document.createElement(\"div\");\r\n//   paralax.className = \"paralax-box\";\r\n//   content.append(paralax);\r\n//   // paralax Elements\r\n//   const spiral = document.createElement(\"img\");\r\n//   spiral.className = \"spiral\";\r\n//   spiral.src = spiralImg;\r\n//   paralax.append(spiral);\r\n\r\n//   const joker = document.createElement(\"img\");\r\n//   joker.className = \"joker\";\r\n//   joker.src = jokerImg;\r\n//   paralax.append(joker);\r\n// }\r\n\r\n// paralxBox();\r\n//сделать футер с этими крутыми анимациями\r\n\r\n\r\nfunction getAbout() {\r\n    container.innerHTML = ''\r\n    getHeader(container)\r\n    const aboutBack = document.createElement = (\"div\");\r\n    aboutBack.className = \"about-background\";\r\n    container.append(aboutBack)\r\n}\r\n\r\n// const imgs = ['main', 'menu', 'about']\r\n\r\n// const pageObj = {\r\n//    main: getMain,\r\n//    menu: getMenu,\r\n//    about: getAbout,\r\n// }\r\n\r\n\n\n//# sourceURL=webpack://restaurant/./script.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   getHeader: () => (/* binding */ getHeader)\n/* harmony export */ });\n/* harmony import */ var _main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./main.css */ \"./main.css\");\n/* harmony import */ var _imgs_header_total_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./imgs/header-total.png */ \"./imgs/header-total.png\");\n/* harmony import */ var _imgs_menu_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./imgs/menu.png */ \"./imgs/menu.png\");\n/* harmony import */ var _imgs_about_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./imgs/about.png */ \"./imgs/about.png\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu */ \"./menu.js\");\n/* harmony import */ var _main__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./main */ \"./main.js\");\n/* harmony import */ var _about__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./about */ \"./about.js\");\n\r\n// import spiralImg from \"./imgs/background-spiral.c5d64e2d702a992fed648621f874d2b8.png\";\r\n\r\n\r\n\r\n// import jokerImg from \"./imgs/Joker.png\";\r\n\r\n\r\n\r\n\r\nconst content = document.querySelector(\"#content\");\r\n\r\nconst pageObj = {\r\n  main: _main__WEBPACK_IMPORTED_MODULE_5__.getMain,\r\n  menu: _menu__WEBPACK_IMPORTED_MODULE_4__.getMenu,\r\n  about: _about__WEBPACK_IMPORTED_MODULE_6__.getAbout,\r\n};\r\n\r\nconst linksImgs = [\r\n  { img: _imgs_header_total_png__WEBPACK_IMPORTED_MODULE_1__, page: \"main\" },\r\n  { img: _imgs_menu_png__WEBPACK_IMPORTED_MODULE_2__, page: \"menu\" },\r\n  { img: _imgs_about_png__WEBPACK_IMPORTED_MODULE_3__, page: \"about\" },\r\n];\r\n\r\nfunction renderPage(page) {\r\n  if (pageObj[page]) {\r\n    content.innerHTML = \"\";\r\n    content.append(getHeader);\r\n    const pageContent = pageObj[page]();\r\n    if (pageContent) {\r\n      content.append(pageContent);\r\n    }\r\n  }\r\n}\r\nrenderPage(\"main\");\r\n\r\nlinksImgs.forEach(({ img, page }) => {\r\n  const imgContainer = document.createElement(\"div\");\r\n  imgContainer.append(img);\r\n  imgContainer.addEventListener(\"click\", () => {\r\n    renderPage(page);\r\n  });\r\n});\r\n\r\n// //header\r\nfunction getHeader(content) {\r\n  const header = document.createElement(\"header\");\r\n  header.className = \"header\";\r\n  content.append(header);\r\n  //header Elements\r\n\r\n\r\n\r\n  linksImgs.forEach(({ img, page }) => {\r\n    const imgTag = document.createElement(\"img\");\r\n    imgTag.className = page;\r\n    imgTag.src = img;\r\n    const imgContainer = document.createElement(\"div\");\r\n    imgContainer.className = \"img-container\";\r\n    imgContainer.append(imgTag);\r\n    imgContainer.addEventListener(\"click\", () => {\r\n      renderPage(page);\r\n    });\r\n    header.append(imgContainer)\r\n  });\r\n}\r\n\n\n//# sourceURL=webpack://restaurant/./script.js?");
+
+/***/ }),
+
+/***/ "./imgsMenu/eevee-drink.f8b591c2bb596b365db38035b955558b.png":
+/*!*******************************************************************!*\
+  !*** ./imgsMenu/eevee-drink.f8b591c2bb596b365db38035b955558b.png ***!
+  \*******************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"f8b591c2bb596b365db3.png\";\n\n//# sourceURL=webpack://restaurant/./imgsMenu/eevee-drink.f8b591c2bb596b365db38035b955558b.png?");
+
+/***/ }),
+
+/***/ "./imgsMenu/eevee-food.9af9e2902101198fcb022fd8e4e6bdc3.png":
+/*!******************************************************************!*\
+  !*** ./imgsMenu/eevee-food.9af9e2902101198fcb022fd8e4e6bdc3.png ***!
+  \******************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"9af9e2902101198fcb02.png\";\n\n//# sourceURL=webpack://restaurant/./imgsMenu/eevee-food.9af9e2902101198fcb022fd8e4e6bdc3.png?");
+
+/***/ }),
+
+/***/ "./imgsMenu/gengar-drink.1e63d44d6cf39607a4527b2de6413051.png":
+/*!********************************************************************!*\
+  !*** ./imgsMenu/gengar-drink.1e63d44d6cf39607a4527b2de6413051.png ***!
+  \********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"1e63d44d6cf39607a452.png\";\n\n//# sourceURL=webpack://restaurant/./imgsMenu/gengar-drink.1e63d44d6cf39607a4527b2de6413051.png?");
+
+/***/ }),
+
+/***/ "./imgsMenu/jigglypuff-food.3c71fb31ea4331868b25d30b61a1cb75.png":
+/*!***********************************************************************!*\
+  !*** ./imgsMenu/jigglypuff-food.3c71fb31ea4331868b25d30b61a1cb75.png ***!
+  \***********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"3c71fb31ea4331868b25.png\";\n\n//# sourceURL=webpack://restaurant/./imgsMenu/jigglypuff-food.3c71fb31ea4331868b25d30b61a1cb75.png?");
 
 /***/ }),
 
@@ -140,6 +210,36 @@ eval("module.exports = __webpack_require__.p + \"1a9fae3c635aa820f8d1.png\";\n\n
 
 /***/ }),
 
+/***/ "./imgsMenu/pickachu-drink.ca1ac5acb51dfbc95eba7d9cb0bef704.png":
+/*!**********************************************************************!*\
+  !*** ./imgsMenu/pickachu-drink.ca1ac5acb51dfbc95eba7d9cb0bef704.png ***!
+  \**********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"ca1ac5acb51dfbc95eba.png\";\n\n//# sourceURL=webpack://restaurant/./imgsMenu/pickachu-drink.ca1ac5acb51dfbc95eba7d9cb0bef704.png?");
+
+/***/ }),
+
+/***/ "./imgsMenu/snorlax-food.e41957ea4dfa06a60365129480382d06.png":
+/*!********************************************************************!*\
+  !*** ./imgsMenu/snorlax-food.e41957ea4dfa06a60365129480382d06.png ***!
+  \********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"e41957ea4dfa06a60365.png\";\n\n//# sourceURL=webpack://restaurant/./imgsMenu/snorlax-food.e41957ea4dfa06a60365129480382d06.png?");
+
+/***/ }),
+
+/***/ "./imgs/Joker.png":
+/*!************************!*\
+  !*** ./imgs/Joker.png ***!
+  \************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"4907cb3d3a5aee11cb28.png\";\n\n//# sourceURL=webpack://restaurant/./imgs/Joker.png?");
+
+/***/ }),
+
 /***/ "./imgs/about-bg.9ff76dd3ad24ef92da4b4370a48b5a02.png":
 /*!************************************************************!*\
   !*** ./imgs/about-bg.9ff76dd3ad24ef92da4b4370a48b5a02.png ***!
@@ -147,6 +247,46 @@ eval("module.exports = __webpack_require__.p + \"1a9fae3c635aa820f8d1.png\";\n\n
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"9ff76dd3ad24ef92da4b.png\";\n\n//# sourceURL=webpack://restaurant/./imgs/about-bg.9ff76dd3ad24ef92da4b4370a48b5a02.png?");
+
+/***/ }),
+
+/***/ "./imgs/about.png":
+/*!************************!*\
+  !*** ./imgs/about.png ***!
+  \************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"8627eecbcde7c3a15fef.png\";\n\n//# sourceURL=webpack://restaurant/./imgs/about.png?");
+
+/***/ }),
+
+/***/ "./imgs/background-spiral.c5d64e2d702a992fed648621f874d2b8.png":
+/*!*********************************************************************!*\
+  !*** ./imgs/background-spiral.c5d64e2d702a992fed648621f874d2b8.png ***!
+  \*********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"c5d64e2d702a992fed64.png\";\n\n//# sourceURL=webpack://restaurant/./imgs/background-spiral.c5d64e2d702a992fed648621f874d2b8.png?");
+
+/***/ }),
+
+/***/ "./imgs/header-total.png":
+/*!*******************************!*\
+  !*** ./imgs/header-total.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"5b4831794634fe4bc2c1.png\";\n\n//# sourceURL=webpack://restaurant/./imgs/header-total.png?");
+
+/***/ }),
+
+/***/ "./imgs/menu.png":
+/*!***********************!*\
+  !*** ./imgs/menu.png ***!
+  \***********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"613efc3d28898a9476ae.png\";\n\n//# sourceURL=webpack://restaurant/./imgs/menu.png?");
 
 /***/ }),
 
@@ -300,7 +440,7 @@ eval("module.exports = __webpack_require__.p + \"f44efaa060da5d0a8ee4.png\";\n\n
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	// This entry module can't be inlined because the eval devtool is used.
+/******/ 	// This entry module is referenced by other modules so it can't be inlined
 /******/ 	var __webpack_exports__ = __webpack_require__("./script.js");
 /******/ 	
 /******/ })()
